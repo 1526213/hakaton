@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="images/favicon-icon.png" type="image/x-icon">
+    <title>Новостная страница кафедры КИТП</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__wrapper">
+            <img src="images/laptop.svg" class="header__logotype" alt="LaptopSVG" width="50" height="50">
+            <h1 class="header__title">ВГТУ</h1>
+            <div class="header__animation">
+                <span>1</span><span>0</span><span>1</span><span>0</span><span>1</span><span>0</span><span>1</span><span>0</span><span>1</span>
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <div class="nav__wrapper">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+                <li class="nav__item"><a href="#news" class="nav__link">Новости</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">Проекты</a></li>
+                <li class="nav__item"><a href="#students" class="nav__link">Студенты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main">
+
+        <div class="main__wrapper">
+
+            <div class="main__about-department">
+                <div class="main__text-department">
+                    <h1 class="main__title-department">кафедра компьютерных интеллектуальных технологий проектирования</h1>
+                    <p class="main__discription-department">
+                        Новости, образовательные программы, исследования и лучшие работы студентов. Мы готовим инженеров, способных решать задачи цифрового проектирования и автоматизации.
+                    </p>
+                </div>
+                <div class="main__list-department">
+                    <div class="main__item">
+                        <div class="main__item-content">
+                            <span class="main__item-digit">4</span>
+                            <span class="main__item-text">направления</span>
+                        </div>
+                    </div>
+                    <div class="main__item">
+                        <div class="main__item-content">
+                            <span class="main__item-digit">12</span>
+                            <span class="main__item-text">преподователей</span>
+                        </div>
+                    </div>
+                    <div class="main__item">
+                        <div class="main__item-content">
+                            <span class="main__item-digit">850+</span>
+                            <span class="main__item-text">студентов</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="main__wrapper" id="news">
+            <div class="main__news-top">
+                <div class="main__news-inner">
+                    <img src="images/news-icon.svg" alt="news-icon" width="30" height="30" class="main__news-icon">
+                    <h2 class="main__news-title">Новости кафедры</h2>
+                </div>
+                <button class="main__news-button">Все новости</button>
+            </div>
+
+            <div class="main__news-bottom">
+                <article class="main__card-left" id="cards-1">
+                    <div class="main__card-inner"></div>
+                    <div class="main__card-content">
+                        <div class="main__card-date">
+                            <img src="images/weeks-icon.svg" alt="weeks-icon" class="main__weeks-img" width="16" height="16">
+                            <span>12 ноября 2026</span>
+                        </div>
+
+                        <h3 class="main__cards-title">
+                            Студенты КИТП стали призёрами Всероссийской олимпиады по САПР
+                        </h3>
+                        <p class="main__cards-description" id="main-description">
+                            Команда кафедры заняла второе место в финале олимпиады по системам автоматизированного проектирования. Ребята представили проект цифрового двойника производственной линии, разработанный на базе отечественного ПО.
+                        </p>
+
+                        <a href="#" class="main__cards-links">Читать полностью-></a>
+                    </div>
+                </article>
+
+                <article class="main__cards-right" id="cards-2">
+
+                    <div class="main__cards-item">
+                        <span class="main__card-date">8 ноября 2026</span>
+                        <h3 class="main__cards-title">Открыт набор в научно-исследовательскую лабораторию (Цифровое проектирование)</h3>
+                        <p class="main__cards-description">Приглашаются студенты 2-4 курсов. Работа над реальными инженерными кейсами совместно с индустриальными партнерами</p>
+                        <a href="#" class="main__cards-links">Подробнее-></a>
+                    </div>
+
+                    <div class="main__cards-item">
+                        <span class="main__card-date">5 ноября 2026</span>
+                        <h3 class="main__cards-title">Встреча с работодателями АО Концерн (Созведие)</h3>
+                        <p class="main__cards-description">Представители предприяти расскажут о стажировках, практике и трудоустройстве выпускников кафедры.</p>
+                        <a href="#" class="main__cards-links">Подробнее-></a>
+                    </div>
+
+                    <div class="main__cards-item">
+                        <span class="main__card-date">1 ноября 2026</span>
+                        <h3 class="main__cards-title">Обновлены методические материалы по курсу (Основны САПР)</h3>
+                        <p class="main__cards-description">В разделе Материалы опубликованы новые лабораторные работы и видеолекции для самостотельного изучения</p>
+                        <a href="#" class="main__cards-links">Подробнее-></a>
+                    </div>
+
+                </article>
+            </div>
+        </div>
+
+        <div class="main__wrapper" id="projects">
+            <div class="projects">
+                <div class="projects__top">
+                    <h2 class="projects__title">
+                        <img src="images/rocket.svg" alt="Иконка" class="projects__icon">
+                        Студенческие проекты
+                    </h2>
+                    <button class="projects__button">Ещё</button>
+                </div>
+
+                <table class="projects__table">
+                    <tr>
+                        <td>
+                            <a href="#" class="project-card">
+                                <div class="project-card__cover">
+                                    <img src="images/school.svg" alt="Иконка">
+                                </div>
+                                <div class="project-card__content">
+                                    <h3>Интеллектуальная система контроля доступа</h3>
+                                    <p>Разработка системы распознавания лиц для пропуска студентов в корпус с интеграцией в базу данных ВГТУ.</p>
+                                    <div class="project-card__author">Автор: Дмитрий Крупов, гр. ИВТ-31</div>
+                                </div>
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="#" class="project-card">
+                                <div class="project-card__cover">
+                                    <img src="images/manipulate.svg" alt="Иконка">
+                                </div>
+                                <div class="project-card__content">
+                                    <h3>Мобильное приложение «Студенческий навигатор»</h3>
+                                    <p>Приложение для поиска аудиторий и просмотра расписания с дополненной реальностью (AR) внутри кампуса.</p>
+                                    <div class="project-card__author">Автор: Екатерина Тополева, гр. ИСТ-22</div>
+                                </div>
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="#" class="project-card">
+                                <div class="project-card__cover">
+                                    <img src="images/science.svg" alt="Иконка">
+                                </div>
+                                <div class="project-card__content">
+                                    <h3>Автоматизация проектирования трубопроводов</h3>
+                                    <p>Плагин для САПР КОМПАС-3D, который автоматически подбирает стандартные детали и создает спецификации.</p>
+                                    <div class="project-card__author">Автор: Артем Кузнецов, гр. АТП-41</div>
+                                </div>
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="#" class="project-card">
+                                <div class="project-card__cover">
+                                    <img src="images/psychology.svg" alt="Иконка">
+                                </div>
+                                <div class="project-card__content">
+                                    <h3>Анализ успеваемости с помощью нейросетей</h3>
+                                    <p>Программный модуль, предсказывающий риски отчисления студентов на основе их оценок и посещаемости.</p>
+                                    <div class="project-card__author">Автор: Ольга Павлова, гр. ИВТ-23</div>
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="main__wrapper" id="students">
+            <section class="info-block">
+
+                <div class="info-block__top">
+                    <h2 class="info-block__title">
+                        <img src="images/book.svg" alt="Иконка" class="info-block__icon">
+                        Студентам
+                    </h2>
+                    <button class="info-block__button">Ещё</button>
+                </div>
+
+                <table class="info-table">
+                    <tr>
+                        <td>
+                            <div class="info-card">
+                                <h3 class="info-card__title">
+                                    <img src="images/text.svg" alt="" class="info-card__icon">
+                                    Расписание занятий
+                                </h3>
+                                <ul class="info-card__list">
+                                    <li><a href="#">Расписание на осенний семестр 2026/27</a></li>
+                                    <li><a href="#">График консультаций преподавателей</a></li>
+                                    <li><a href="#">Расписание экзаменов (зимняя сессия)</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="info-card">
+                                <h3 class="info-card__title">
+                                    <img src="images/book_1.svg" alt="" class="info-card__icon">
+                                    Учебные материалы
+                                </h3>
+                                <ul class="info-card__list">
+                                    <li><a href="#">Методические указания по курсовым работам</a></li>
+                                    <li><a href="#">Лекции по САПР (PDF)</a></li>
+                                    <li><a href="#">Шаблоны отчетов и презентаций</a></li>
+                                </ul>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="info-card">
+                                <h3 class="info-card__title">
+                                    <img src="images/library_books.svg" alt="" class="info-card__icon">
+                                    Объявления
+                                </h3>
+                                <ul class="info-card__list">
+                                    <li>
+                                        <span class="info-card__date">15 ноября</span>
+                                        Собрание старост групп в 14:00 (ауд. 320). Явка обязательна.
+                                    </li>
+                                    <li>
+                                        <span class="info-card__date">20 ноября</span>
+                                        Последний день приема заявок на повышенную стипендию. Не забудьте сдать документы в деканат.
+                                    </li>
+                                    <li>
+                                        <span class="info-card__date">25 ноября</span>
+                                        Начало бесплатных курсов по английскому языку для подготовки к международным экзаменам.
+                                    </li>
+                                    <li>
+                                        <span class="info-card__date">1 декабря</span>
+                                        Старт записи на летнюю практику на предприятиях-партнерах. Список предприятий будет на сайте.
+                                    </li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__block">
+                <img src="images/laptop.svg" alt="Logotype-footer" class="footer__icon" width="50" height="50">
+                    <div class="footer__about">
+                        <p class="footer__text">
+                            Страница ФГБОУ ВО кафедры КИТП
+                            <span class="footer__security">Все права защищены</span>
+                        </p>
+                    </div>
+                
+            </div>
+            
+
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
